@@ -1,8 +1,12 @@
-
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     margin: 10px 100px 10px 100px;
 }
 
+/* Top Banner */
 .top-banner{
     background-color: #33064F;
     border-radius: 10px;
@@ -15,7 +19,7 @@
 .top-banner-text{
 color: white;
 padding-left: 10%;
-padding-top: 5%;
+padding-top: 2%;
 
 
 
@@ -41,6 +45,10 @@ color: white;
 background-color: tomato;
 font-weight: 700;
 }
+.link-button:hover {
+    background-color: yellow;
+    color: black;}
+
 .top-banner-image{
 width: 100%;
 padding-left: 15%;
@@ -48,6 +56,10 @@ padding-top: 10%;
 
 
 }
+
+/* Cird style */
+
+
 
 .transfer-live{
 display: grid;
