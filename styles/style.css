@@ -1,0 +1,281 @@
+/* ---------Common Css Start------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* -----------Common Css End------------ */
+
+/* -----------Header Part Css Start----------- */
+.hero-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #30084B;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.top-banner-text {
+    padding: 20%;
+}
+
+.top-banner-text h1 {
+    font-size: 3em;
+}
+
+.top-banner-text button {
+    background-color: tomato;
+    padding: 20px 30px;
+    margin: 30px 0px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 #5ce632;
+    transition: box-shadow .8s ease-in-out;
+
+}
+
+.top-banner-text button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.top-banner-text button a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.top-banner-text button:hover {
+    box-shadow: inset 140px 0 0 0 #5ce632;
+}
+
+.top-banner-img img {
+    width: 100%;
+
+}
+
+/*----------------- Header Part Css End--------------- */
+
+/* ---------Featured Area Css Start----------- */
+.Feature-banner-area {
+    display: flex;
+    margin: 100px auto;
+}
+
+/* 2nd Banner Navbar Part Start  */
+.navbar {
+    background-color: #30084B;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navbar li {
+    list-style-type: none;
+    background-color: white;
+    text-align: center;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+
+
+.navbar .selected {
+    background-color: tomato;
+}
+
+.navbar .selected a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 20px;
+}
+
+/* Featured Navbar Part End  */
+
+/* Featured Blogs Part Start  */
+
+#blogs {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.blog {
+    border: 1px solid #84e4ac;
+    border-radius: 10px;
+
+}
+
+.blog img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.blog-desc {
+    padding: 15px;
+}
+
+.blog button {
+    display: block;
+    padding: 5px 10px;
+}
+
+.blog-feed {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.duration {
+    margin-right: 20px;
+}
+
+/* Featured Blogs Part Start  */
+
+/* Featured Matches Part Start  */
+#matches {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.match {
+    padding: 50px 30px;
+    border: 1px solid #84e4ac;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.flags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.flags img {
+    width: 60%;
+}
+
+.flags span {
+    padding: 0 2%;
+    font-weight: 700;
+}
+
+.match-desc {
+    margin-top: 20px;
+}
+
+/* Featured Matches Part End  */
+
+
+/* Button For Tablet Only  */
+.button {
+    display: none;
+}
+
+.button a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px;
+    padding: 15px 30px;
+    background-color: rgb(6, 126, 173);
+    color: rgb(243, 235, 247);
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+/* Button For Tablet Only  */
+
+/* ------------Featured Area Css End----------- */
+
+/* ---------------Footer Part Start--------------  */
+footer {
+    background-color: #30084B;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.footer-content hr {
+    opacity: 0.6;
+    margin: 50px auto;
+}
+
+.footer-content h2 {
+    font-size: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.footer-nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: wheat;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: none;
+    margin: 40px;
+}
+
+.social-icons a {
+    font-size: 40px;
+    margin: 15px
+}
+
+/* --------Footer Part End----------  */
+
+/* Second website css start */
+
+
+
+.flog-images{
+    padding-top: 50px;
+ display: flex;
+ justify-content: space-around;
+    
+}
+.flog-images img{
+    width: 100%;
+}
+.flog-text{
+    margin-top: 20px;
+    text-align: center;
+}
+/* Second website css End */
